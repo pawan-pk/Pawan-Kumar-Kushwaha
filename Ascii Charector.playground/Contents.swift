@@ -1,11 +1,10 @@
 import UIKit
 
 func printName(_ enteredName:String){
-    let nameInUpperCase = enteredName.uppercased()
-    let names = nameInUpperCase.components(separatedBy: "\n")
+    let names = enteredName.components(separatedBy: "\n")
     for name in names
     {
-        for i in 1...7
+        for i in 1...8
         {
             for namechar in name
             {
@@ -21,6 +20,7 @@ func printName(_ enteredName:String){
                     case 5: print("       ",terminator:"")
                     case 6: print("       ",terminator:"")
                     case 7: print("       ",terminator:"")
+                    case 8: print("       ",terminator:"")
                     default:
                         print("Pagal ho kya...")
                     }
@@ -34,6 +34,7 @@ func printName(_ enteredName:String){
                     case 5: print("*******",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print("**   **",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "B":
@@ -46,6 +47,7 @@ func printName(_ enteredName:String){
                     case 5: print("**   **",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print("****** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "C":
@@ -58,6 +60,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     ",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "D":
@@ -70,6 +73,7 @@ func printName(_ enteredName:String){
                     case 5: print(" **  **",terminator:" ")
                     case 6: print(" **  **",terminator:" ")
                     case 7: print("****** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "E":
@@ -82,6 +86,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     ",terminator:" ")
                     case 6: print("**     ",terminator:" ")
                     case 7: print("*******",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "F":
@@ -94,6 +99,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     ",terminator:" ")
                     case 6: print("**     ",terminator:" ")
                     case 7: print("**     ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "G":
@@ -106,6 +112,7 @@ func printName(_ enteredName:String){
                     case 5: print("**  ***",terminator:" ")
                     case 6: print("**    *",terminator:" ")
                     case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "H":
@@ -118,6 +125,7 @@ func printName(_ enteredName:String){
                     case 5: print("**   **",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print("**   **",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "I":
@@ -130,6 +138,7 @@ func printName(_ enteredName:String){
                     case 5: print("  **  ",terminator:" ")
                     case 6: print("  **  ",terminator:" ")
                     case 7: print("******",terminator:" ")
+                    case 8: print("      ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "J":
@@ -142,6 +151,7 @@ func printName(_ enteredName:String){
                     case 5: print("*    **",terminator:" ")
                     case 6: print("*    **",terminator:" ")
                     case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "K":
@@ -154,6 +164,7 @@ func printName(_ enteredName:String){
                     case 5: print("**  ** ",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print("**   **",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "L":
@@ -166,6 +177,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     ",terminator:" ")
                     case 6: print("*******",terminator:" ")
                     case 7: print("*******",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "M":
@@ -178,6 +190,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     **",terminator:" ")
                     case 6: print("**     **",terminator:" ")
                     case 7: print("**     **",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "N":
@@ -190,6 +203,7 @@ func printName(_ enteredName:String){
                     case 5: print("**   * **",terminator:" ")
                     case 6: print("**    ***",terminator:" ")
                     case 7: print("**     **",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "O":
@@ -202,6 +216,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     **",terminator:" ")
                     case 6: print("**     **",terminator:" ")
                     case 7: print(" ******* ",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "P":
@@ -214,6 +229,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     ",terminator:" ")
                     case 6: print("**     ",terminator:" ")
                     case 7: print("**     ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "Q":
@@ -226,6 +242,7 @@ func printName(_ enteredName:String){
                     case 5: print("**  *  ** ",terminator:" ")
                     case 6: print("**   * ** ",terminator:" ")
                     case 7: print(" ******  *",terminator:" ")
+                    case 8: print("          ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "R":
@@ -238,6 +255,7 @@ func printName(_ enteredName:String){
                     case 5: print("** **  ",terminator:" ")
                     case 6: print("**   **",terminator:" ")
                     case 7: print("**   **",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "S":
@@ -250,6 +268,7 @@ func printName(_ enteredName:String){
                     case 5: print("     **",terminator:" ")
                     case 6: print("*    **",terminator:" ")
                     case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "T":
@@ -262,6 +281,7 @@ func printName(_ enteredName:String){
                     case 5: print("   **   ",terminator:" ")
                     case 6: print("   **   ",terminator:" ")
                     case 7: print("   **   ",terminator:" ")
+                    case 8: print("        ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "U":
@@ -274,6 +294,7 @@ func printName(_ enteredName:String){
                     case 5: print("**     **",terminator:" ")
                     case 6: print("**     **",terminator:" ")
                     case 7: print(" ******* ",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "V":
@@ -286,18 +307,20 @@ func printName(_ enteredName:String){
                     case 5: print(" **   ** ",terminator:" ")
                     case 6: print("  ** **  ",terminator:" ")
                     case 7: print("   ***   ",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "W":
                     switch i
                     {
-                    case 1: print("**         **",terminator:" ")
-                    case 2: print("**         **",terminator:" ")
-                    case 3: print("**         **",terminator:" ")
-                    case 4: print("**         **",terminator:" ")
-                    case 5: print(" **   *   ** ",terminator:" ")
-                    case 6: print("  ** * * **  ",terminator:" ")
-                    case 7: print("   **   **   ",terminator:" ")
+                        case 1: print("**                 **",terminator:" ")
+                        case 2: print("**        *        **",terminator:" ")
+                        case 3: print("**       ***       **",terminator:" ")
+                        case 4: print(" **     ** **     ** ",terminator:" ")
+                        case 5: print("  **   **   **   **  ",terminator:" ")
+                        case 6: print("   ** **     ** **   ",terminator:" ")
+                        case 7: print("    ***       ***    ",terminator:" ")
+                    case 8: print("             ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "X":
@@ -310,6 +333,7 @@ func printName(_ enteredName:String){
                     case 5: print("  ** **  ",terminator:" ")
                     case 6: print(" **   ** ",terminator:" ")
                     case 7: print("**     **",terminator:" ")
+                    case 8: print("         ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "Y":
@@ -318,10 +342,11 @@ func printName(_ enteredName:String){
                     case 1: print("**      **",terminator:" ")
                     case 2: print(" **    ** ",terminator:" ")
                     case 3: print("  **  **  ",terminator:" ")
-                    case 4: print("    **   ",terminator:" ")
-                    case 5: print("    **   ",terminator:" ")
-                    case 6: print("    **   ",terminator:" ")
-                    case 7: print("    **   ",terminator:" ")
+                    case 4: print("    **    ",terminator:" ")
+                    case 5: print("    **    ",terminator:" ")
+                    case 6: print("    **    ",terminator:" ")
+                    case 7: print("    **    ",terminator:" ")
+                    case 8: print("          ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 case "Z":
@@ -334,6 +359,346 @@ func printName(_ enteredName:String){
                     case 5: print("  **     ",terminator:" ")
                     case 6: print(" **     *",terminator:" ")
                     case 7: print("*********",terminator:" ")
+                    case 8: print("         ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "a":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print(" ****** ",terminator:" ")
+                    case 3: print("*     **",terminator:" ")
+                    case 4: print("  ******",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print(" **** **",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "b":
+                    switch i
+                    {
+                    case 1: print("**      ",terminator:" ")
+                    case 2: print("**      ",terminator:" ")
+                    case 3: print("** **   ",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print("** ***  ",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "c":
+                    switch i
+                    {
+                    case 1: print("       ",terminator:" ")
+                    case 2: print(" ***** ",terminator:" ")
+                    case 3: print("**   **",terminator:" ")
+                    case 4: print("**     ",terminator:" ")
+                    case 5: print("**     ",terminator:" ")
+                    case 6: print("**   **",terminator:" ")
+                    case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "d":
+                    switch i
+                    {
+                    case 1: print("      **",terminator:" ")
+                    case 2: print("      **",terminator:" ")
+                    case 3: print("   ** **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print("  *** **",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "e":
+                    switch i
+                    {
+                    case 1: print("       ",terminator:" ")
+                    case 2: print(" ***** ",terminator:" ")
+                    case 3: print("**   **",terminator:" ")
+                    case 4: print("*******",terminator:" ")
+                    case 5: print("**     ",terminator:" ")
+                    case 6: print("**    *",terminator:" ")
+                    case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "f":
+                    switch i
+                    {
+                    case 1: print("   ****",terminator:" ")
+                    case 2: print(" **    ",terminator:" ")
+                    case 3: print(" **    ",terminator:" ")
+                    case 4: print("*******",terminator:" ")
+                    case 5: print(" **    ",terminator:" ")
+                    case 6: print(" **    ",terminator:" ")
+                    case 7: print(" **    ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "g":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("        ",terminator:" ")
+                    case 3: print("  *** **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("  *** **",terminator:" ")
+                    case 7: print("*     **",terminator:" ")
+                    case 8: print(" ****** ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "h":
+                    switch i
+                    {
+                    case 1: print("**      ",terminator:" ")
+                    case 2: print("**      ",terminator:" ")
+                    case 3: print("** **   ",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print("**    **",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "i":
+                    switch i
+                    {
+                    case 1: print("  **  ",terminator:" ")
+                    case 2: print("      ",terminator:" ")
+                    case 3: print("****  ",terminator:" ")
+                    case 4: print("  **  ",terminator:" ")
+                    case 5: print("  **  ",terminator:" ")
+                    case 6: print("  **  ",terminator:" ")
+                    case 7: print("******",terminator:" ")
+                    case 8: print("      ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "j":
+                    switch i
+                    {
+                    case 1: print("     **",terminator:" ")
+                    case 2: print("       ",terminator:" ")
+                    case 3: print(" ******",terminator:" ")
+                    case 4: print("     **",terminator:" ")
+                    case 5: print("     **",terminator:" ")
+                    case 6: print("     **",terminator:" ")
+                    case 7: print("*    **",terminator:" ")
+                    case 8: print(" ***** ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "k":
+                    switch i
+                    {
+                    case 1: print("**    ",terminator:" ")
+                    case 2: print("**  **",terminator:" ")
+                    case 3: print("** ** ",terminator:" ")
+                    case 4: print("***   ",terminator:" ")
+                    case 5: print("** ** ",terminator:" ")
+                    case 6: print("**  **",terminator:" ")
+                    case 7: print("**  **",terminator:" ")
+                    case 8: print("      ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "l":
+                    switch i
+                    {
+                    case 1: print("****  ",terminator:" ")
+                    case 2: print("  **  ",terminator:" ")
+                    case 3: print("  **  ",terminator:" ")
+                    case 4: print("  **  ",terminator:" ")
+                    case 5: print("  **  ",terminator:" ")
+                    case 6: print("  **  ",terminator:" ")
+                    case 7: print("******",terminator:" ")
+                    case 8: print("      ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "m":
+                    switch i
+                    {
+                    case 1: print("          ",terminator:" ")
+                    case 2: print("* *** *** ",terminator:" ")
+                    case 3: print("**  **  **",terminator:" ")
+                    case 4: print("**  **  **",terminator:" ")
+                    case 5: print("**  **  **",terminator:" ")
+                    case 6: print("**  **  **",terminator:" ")
+                    case 7: print("**  **  **",terminator:" ")
+                    case 8: print("          ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "n":
+                    switch i
+                    {
+                    case 1: print("         ",terminator:" ")
+                    case 2: print("* *****  ",terminator:" ")
+                    case 3: print("**     **",terminator:" ")
+                    case 4: print("**     **",terminator:" ")
+                    case 5: print("**     **",terminator:" ")
+                    case 6: print("**     **",terminator:" ")
+                    case 7: print("**     **",terminator:" ")
+                    case 8: print("         ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "o":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print(" ****** ",terminator:" ")
+                    case 3: print("**    **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print(" ****** ",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "p":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("** ***  ",terminator:" ")
+                    case 3: print("**    **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("** ***  ",terminator:" ")
+                    case 7: print("**      ",terminator:" ")
+                    case 8: print("**      ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "q":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("  *** **",terminator:" ")
+                    case 3: print("**    **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("  *** **",terminator:" ")
+                    case 7: print("      **",terminator:" ")
+                    case 8: print("      **",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "r":
+                    switch i
+                    {
+                    case 1: print("       ",terminator:" ")
+                    case 2: print("** ****",terminator:" ")
+                    case 3: print(" **    ",terminator:" ")
+                    case 4: print(" **    ",terminator:" ")
+                    case 5: print(" **    ",terminator:" ")
+                    case 6: print(" **    ",terminator:" ")
+                    case 7: print("****** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "s":
+                    switch i
+                    {
+                    case 1: print("       ",terminator:" ")
+                    case 2: print(" ***** ",terminator:" ")
+                    case 3: print("*     *",terminator:" ")
+                    case 4: print(" **    ",terminator:" ")
+                    case 5: print("    ** ",terminator:" ")
+                    case 6: print("*     *",terminator:" ")
+                    case 7: print(" ***** ",terminator:" ")
+                    case 8: print("       ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "t":
+                    switch i
+                    {
+                    case 1: print(" **   ",terminator:" ")
+                    case 2: print(" **   ",terminator:" ")
+                    case 3: print("***** ",terminator:" ")
+                    case 4: print(" **   ",terminator:" ")
+                    case 5: print(" **   ",terminator:" ")
+                    case 6: print(" **   ",terminator:" ")
+                    case 7: print("  ****",terminator:" ")
+                    case 8: print("      ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "u":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("**    **",terminator:" ")
+                    case 3: print("**    **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print("**    **",terminator:" ")
+                    case 6: print("**    **",terminator:" ")
+                    case 7: print(" **** **",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "v":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("**    **",terminator:" ")
+                    case 3: print("**    **",terminator:" ")
+                    case 4: print("**    **",terminator:" ")
+                    case 5: print(" **  ** ",terminator:" ")
+                    case 6: print("  ****  ",terminator:" ")
+                    case 7: print("   **   ",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "w":
+                    switch i
+                    {
+                    case 1: print("                ",terminator:" ")
+                    case 2: print("**            **",terminator:" ")
+                    case 3: print("**     **     **",terminator:" ")
+                    case 4: print("**    ****    **",terminator:" ")
+                    case 5: print(" **  **  **  ** ",terminator:" ")
+                    case 6: print("  ****    ****  ",terminator:" ")
+                    case 7: print("   **      **   ",terminator:" ")
+                    case 8: print("                ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "x":
+                    switch i
+                    {
+                    case 1: print("        ",terminator:" ")
+                    case 2: print("**    **",terminator:" ")
+                    case 3: print(" **  ** ",terminator:" ")
+                    case 4: print("  ****  ",terminator:" ")
+                    case 5: print("  ****  ",terminator:" ")
+                    case 6: print(" **  ** ",terminator:" ")
+                    case 7: print("**    **",terminator:" ")
+                    case 8: print("        ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                case "y":
+                    switch i
+                    {
+                    case 1: print("         ",terminator:" ")
+                    case 2: print("**     **",terminator:" ")
+                    case 3: print(" **    **",terminator:" ")
+                    case 4: print("  **  ** ",terminator:" ")
+                    case 5: print("   ****  ",terminator:" ")
+                    case 6: print("    **   ",terminator:" ")
+                    case 7: print("   **    ",terminator:" ")
+                    case 8: print(" ***     ",terminator:" ")
+                    default: print("Pagal ho kya...")
+                    }
+                
+                case "z":
+                    switch i
+                    {
+                    case 1: print("                ",terminator:" ")
+                    case 2: print("*******",terminator:" ")
+                    case 3: print("    ** ",terminator:" ")
+                    case 4: print("   **  ",terminator:" ")
+                    case 5: print("  **   ",terminator:" ")
+                    case 6: print(" **    ",terminator:" ")
+                    case 7: print("*******",terminator:" ")
+                    case 8: print("                ",terminator:" ")
                     default: print("Pagal ho kya...")
                     }
                 default:
@@ -346,7 +711,8 @@ func printName(_ enteredName:String){
     }
 }
 let name="""
-BALENDU
-TIWARI
+Pawan
+Kumar
+Kushwaha
 """
 printName(name)
